@@ -1,0 +1,21 @@
+const person = { 
+id : 2 , 
+gender : 'mail' 
+}; 
+const student = {
+name : "ravi" , 
+email :"ravi11@yopmail.com" 
+}; 
+
+
+const customers ={
+    id:person.id,
+    gender:person.gender,
+    name:student.name,
+    email:student.email
+}
+or we can nest it
+const customers ={
+    sudent:student,
+    person:person,
+}
